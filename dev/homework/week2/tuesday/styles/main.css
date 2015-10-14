@@ -71,9 +71,7 @@ button:hover, .fa:hover {
   color: #fff;
   transition: all 0.3s ease 0s; }
 
-.buttonBox
-:hover
-.sizePop {
+.colorPop:hover {
   display: block; }
 
 div.sizePop {

@@ -85,11 +85,10 @@ button:hover, .fa:hover {
   transition: all 0.3s ease 0s;
 }
 
-.buttonBox
-  &:hover
-    .sizePop {
+
+.colorPop:hover {
       display: block;
-    }
+}
 
 div.sizePop {
   display: none;
