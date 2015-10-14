@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Myriad';
+  src: url(file:///Users/danielopatich1/dev/_class/week2/tuesday/fonts/myriad.otf);
+}
+
+body {
+  font-family: 'Myriad';
+  color: #5CA4D7;
+  height: 1000px;
+}
+
+img {
+  height: 280px;
+  width: 295px;
+}
+
+figure {
+  margin: 1.1em 20px
+}
+
+.leftShirt, .middleShirt, .rightShirt {
+  float: left;
+  background: #fff;
+  margin: 50px 40px;
+  padding: 0 38px 0 0;
+  width: 290px;
+  height: 400px;
+  border: 3px solid #5CA4D7;
+  position: relative;
+}
+
+.shirtOptions {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+button {
+  background: #fff;
+  height: 55px;
+  border: none;
+  margin: 0;
+  width: 100%;
+}
+
+.shirtOptions a{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+
+.buttonBox {
+  float: left;
+  display: block;
+  position: relative;
+  background: #fff;
+  height: 55px;
+  width: 20%;
+  margin: -3px -3px;
+  border: 3px solid #5CA4D7;
+}
+
+.shirtColor1, .shirtColor2, .shirtColor3 {
+  display: block;
+  height: 20px;
+  width: 50px;
+  background-color: #7EB8E1;
+}
+
+div.namePrice {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  margin:0 auto;
+}
+
+
+button:hover, .fa:hover {
+  background-color:  #5CA4D7;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.buttonBox
+  &:hover
+    .sizePop {
+      display: block;
+    }
+
+div.sizePop {
+  display: none;
+  margin: 0 0 0 -8px;
+  background: #fff;
+  height: 165px;
+  width: 75px;
+  border: 3px solid #5CA4D7;
+}
+
+div.colorPop {
+  display: none;
+  margin: 0 0 0 -8px;
+  float: left;
+  background: #fff;
+  height: 223px;
+  width: 75px;
+  border: 3px solid #5CA4D7;
+}
+
+.stop1 {
+  height: 25px;
+  width: 61px;
+  background-color: #5CA4D7;
+}
+
+.stop2 {
+  height: 25px;
+  width: 61px;
+  background-color: #58765D;
+}
+
+.stop3 {
+  height: 25px;
+  width: 61px;
+  background-color: #D382AA;
+}
+
+.stop4 {
+  height: 25px;
+  width: 61px;
+  background-color: #D8AD7A;
+}
+
+.price, .price2, .price3 {
+  margin: -50px 260px 0px 40px;
+  font-family: 'Myriad';
+  font-size: 10px;
+  float: left;
+}
